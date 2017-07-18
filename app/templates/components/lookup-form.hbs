@@ -1,1 +1,10 @@
-{{yield}}
+<h1>ENTER NEWS SOURCE</h1>
+
+<form>
+  <div class="form-group">
+    <label for="source">news source</label>
+    {{input value=source id="source"}}
+  </div>
+
+  <button class="btn btn-primary" {{action 'sourceLookUp'}}>GET NEWS</button>
+</form>

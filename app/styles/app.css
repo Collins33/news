@@ -8,12 +8,14 @@ body {
 }
 
 .searchrow {
-  background: #3CA55C;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #B5AC49, #3CA55C);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+  font-size: 40px;
+  backdrop-filter: blur(5px);
 }
 
 .homepics {
@@ -22,4 +24,31 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+input {
+    border: 1px solid white;
+    -webkit-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+
+}
+form {
+   margin-left: 400px;
+   margin-right:auto;
+   width:100px;
+}
+
+nav{
+    margin-bottom: 30px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Posi
+
 }
